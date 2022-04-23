@@ -1,0 +1,19 @@
+Hobilerimi, yaptığım sporları, şehrimin kültürünü, özgeçmişimi,
+ şehrimin resimlerini ve gezmek istediğim şehirlerin resimlerini bildiğim güzel bir web sitesi oluşturacağım.
+ giriş sayfası Bu sayfada giriş yapilacak.
+ Şifre ve kullanıcı adının doğru olduğunu kontrol ettiğinde,
+ kullanıcıya şifre ve e-postanın tanımlandığına dair bir mesaj gönderecektir.Teşekkürler.
+
+
+
+
+
+
+
+
+
+
+
+BESSAM ALSHEHABI
+B201210597
+(B)
