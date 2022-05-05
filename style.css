@@ -1,7 +1,7 @@
 *{
 margin: 0;
 padding: 0;
-font-family: 'Times New Roman', Times, serif;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
 
@@ -51,13 +51,12 @@ margin: 16px;
 padding: 16px;
 background-color: rgb(219, 152, 6);
 width: 15%;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
- Verdana, sans-serif;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-size: 20px;
  color: aliceblue;
  border-radius: 10px;
 
- font-weight: 900;
+ font-weight: 800;
 
 }
 a:hover{
@@ -208,7 +207,7 @@ height: 35%;
 }
 .giris {
 position: absolute;
-margin-top:156%;
+margin-top:180%;
 margin-left: 27%;
 
 }
