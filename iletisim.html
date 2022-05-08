@@ -9,7 +9,39 @@
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
      crossorigin="anonymous">
     <style>
-        body{
+        header{
+  
+  background-color: rgb(94, 126, 156);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  
+}
+
+.logo{
+text-decoration: none;
+color :rgb(12, 8, 206);
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1.8em;
+}
+.navigation
+  a{
+  text-decoration: none;
+  color: rgb(12, 8, 206);
+  font-weight: 500;
+  font-size:  1.1em;
+  padding-left: 30px;
+   
+  }
+  .navigation a:hover{
+    color: blueviolet;
+  }    
+body{
             
             background : linear-gradient(rgb(240, 241, 136),rgb(232, 234, 236));
     width: 100%;
@@ -19,7 +51,14 @@
                 </style>
 </head>
 <body>
-    
+    <header>
+        <a href="#" class="logo">ANA SAYFA</a>
+        <nav class="navigation">
+          <a href="#services">Hizmetler</a>
+          <a href="#contact1">İletişim</a>
+        </nav>
+        
+          </header>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
