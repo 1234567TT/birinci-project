@@ -9,40 +9,175 @@
      rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <style>
-   body{
-       background-color: black;
-       margin-top: 50px;
+   
+  h2{
+color: rgb(20, 233, 208);
+font-size: 30px;
+font-weight: 800;
+background-color: rgb(22, 7, 228);
+border-radius: 10px;
+
+  }
+  
+   div ul{
+   
+     padding-right: 10px;
+     margin-left: 15px;
+     float: left;
+     margin-top: 70px;
+     line-height: 40px;
+     font-weight: 600;
+     font-size: 20px;
+text-align: center;
+background: rgb(255,0,0,0.2);
+border: 3px;
    }
+    p{
+                  color: aliceblue;
+                }
+h1{
+  color: aliceblue;
+}
+.foto{
+ width: 60%;
+ 
+ margin-left: 20px;
+ margin-top: 80px;
+ 
+}
+
+a{
+  text-decoration: none;
+}
+button{
+  margin-top: 230px;
+  width: 30%;
+  
+  font-size: 25px;
+  color: aliceblue;
+  background-color: blue;
+  font-weight: 600;
+}
+.miras{
+margin-top: 200px;
+line-height: 50px;
+
+
+}
+.carousel-inner{
+margin-top: 200px;
+margin-bottom: 50px;
+width: 50%;
+}
 
     </style>
 </head>
-<body>
-    <center><div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="fotograf/top.jpg" class="d-block w-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="fotograf/laptop2.png" class="d-block w-30" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="fotograf/yurmak.jpg" class="d-block w-30" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+<body> 
+  
+  <div class="ul">
+      <ul type="none">
+        <li ><h2>Genel Bilgiler  </h2></li>
+        <li>ŞEHRİM ADI : ELBAB</li>
+        <li>Halep kırsalında bir şehir</li>
+        <li>Alan : 190 Km<sup>2</sup></li>
+        <li>Nüfus sayısı : 320,000</li>
+        <li>Kuruluş tarihi : MÖ 12200</li>
+      </ul>
+    </div>
+    <center>
+    <img src="fotograf/city.jpg" class="foto">
+  </center>
+    <center>
+      <a href="#carouselExampleDark"><button >Resimler</button>   </a>
+     <a href="#miras"> <button >Miras</button></a>
     </center>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <center>
+      <div class="miras" id="miras">
       
+<h1 style="color: red;
+ background-color: aliceblue; border-radius: 10px; width: 50%;"> Şehrin ünlü olduğu en önemli şeyler </h1>
+  <h3 style="font-size:30px;color: rgb(225, 236, 238);
+   background-color:black; border-radius: 10px ; width: 50%; margin-top: 40px;" > 
+   Nar ağaçlarının yetiştirilmesidir.
+  Hem tatlı hem ekşi olan bir nar var</h3>
+  <br>
+  <img src="fotograf/nar.jpg" class="nar" style="width: 400px;">
+  
+  <br>
+   <h3 style="font-size:30px;color: rgb(225, 236, 238);
+   background-color:black; 
+   border-radius: 10px ; width: 50%; margin-top: 40px;">
+    Şehri kebabı, köftesi, tatlıları ve
+ lezzetli yemekleri ile ünlüdür.
+ </h3>
+ <br>
+ <img src="fotograf/kabab.jpg" style="width: 400px;">
+ <h3 style="font-size:30px;color: rgb(225, 236, 238);
+   background-color:black; 
+   border-radius: 10px ; width: 50%; margin-top: 40px;">
+  şehirde çok 
+ sayıda cami var ve
+ birçoğu uzun zaman önce inşa edilmiş.
+ Camiye girdiğinizde kendinizi çok güvende,
+ rahat ve güvende hissediyorsunuz.
+ </h3> </div>
+    </center>
+   <br>
+   <hr>
+    <center>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+            <a target="_blank" href="https://www.google.fr/search?q=%D8%B5%D9%88%D8%B1+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%A8%D8%A7%D8%A8&sxsrf=ALiCzsZxVSzc8lqt318WETA_Hc5IejVsfQ:1651806402502&source=lnms&tbm=isch&sa=X&ved=2ahUKEwit_e6u8sn3AhVNS_EDHcr_DFEQ_AUoAXoECAEQAw&biw=1920&bih=927&dpr=1#imgrc=wuEixWlUcn36DM
+            ">  <img src="fotograf/city.jpg" class="d-block " style="width: 60rem;" ></a>
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+             <a target="_blank" href="https://www.google.fr/search?q=%D8%B5%D9%88%D8%B1+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%A8%D8%A7%D8%A8&sxsrf=ALiCzsZxVSzc8lqt318WETA_Hc5IejVsfQ:1651806402502&source=lnms&tbm=isch&sa=X&ved=2ahUKEwit_e6u8sn3AhVNS_EDHcr_DFEQ_AUoAXoECAEQAw&biw=1920&bih=927&dpr=1#imgrc=zBd3vauDGf0I1M"> <img src="fotograf/city1.jpg" class="d-block" style="width: 40rem;" ></a>
+              <div class="carousel-caption d-none d-md-block">
+               
+          
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a target="_blank" href="https://www.google.fr/search?q=%D8%B5%D9%88%D8%B1+%D9%85%D9%86+%D8%AF%D8%A7%D8%AE%D9%84+%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF+%D9%84%D9%84%D9%85%D8%B5%D9%84%D9%8A%D9%86+&tbm=isch&ved=2ahUKEwieztbvw833AhXeiv0HHUMsBN0Q2-cCegQIABAA&oq=%D8%B5%D9%88%D8%B1+%D9%85%D9%86+%D8%AF%D8%A7%D8%AE%D9%84+%D8%A7%D9%84%D9%85%D8%B3%D8%AC%D8%AF+%D9%84%D9%84%D9%85%D8%B5%D9%84%D9%8A%D9%86+&gs_lcp=CgNpbWcQDFCuEliuEmCiGmgAcAB4AIABdIgB4gGSAQMwLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=4Hh2Yp7eNt6V9u8Pw9iQ6A0&bih=927&biw=1920#imgrc=qlJenBjoarSHkM"><img src="fotograf/seh.jpg" class="d-block " style="width: 50rem;" alt="..."></a>
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+           <a href="https://www.google.fr/search?q=%D8%B5%D9%88%D8%B1+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%A8%D8%A7%D8%A8&sxsrf=ALiCzsZxVSzc8lqt318WETA_Hc5IejVsfQ:1651806402502&source=lnms&tbm=isch&sa=X&ved=2ahUKEwit_e6u8sn3AhVNS_EDHcr_DFEQ_AUoAXoECAEQAw&biw=1920&bih=927&dpr=1#imgrc=vPSFGrSXmI8U9M&imgdii=aSv30sNH6963YM" target="_blank"><img src="fotograf/sehrim2.jpg" class="d-block " style="width: 50rem;" ></a>
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+            <a href="https://www.google.fr/search?q=%D8%B5%D9%88%D8%B1+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%A8%D8%A7%D8%A8+%D8%AC%D8%A8%D9%84&tbm=isch&ved=2ahUKEwiEwevmxM33AhVCgv0HHbvbDEMQ2-cCegQIABAA&oq=%D8%B5%D9%88%D8%B1+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%A8%D8%A7%D8%A8+%D8%AC%D8%A8%D9%84&gs_lcp=CgNpbWcQDFDRBVibaWDsfmgNcAB4AYABgQGIAZIMkgEEMS4xM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=2nl2YoTsMMKE9u8Pu7ezmAQ&bih=927&biw=1920">  <img src="fotograf/dag.jpg" class="d-block" style="width: 50rem;" alt="..."></a>
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
