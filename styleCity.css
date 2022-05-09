@@ -1,0 +1,60 @@
+h2{
+    color: rgb(20, 233, 208);
+    font-size: 30px;
+    font-weight: 800;
+    background-color: rgb(22, 7, 228);
+    border-radius: 10px;
+    
+      }
+      
+       div ul{
+       
+         padding-right: 20px;
+         margin-left: 15px;
+         float: left;
+         margin-top: 70px;
+         line-height: 40px;
+         font-weight: 600;
+         font-size: 20px;
+    text-align: center;
+    background: rgba(17, 1, 14, 0.2);
+    border: 3px;
+       }
+        p{
+                      color: aliceblue;
+                    }
+    h1{
+      color: aliceblue;
+    }
+    .foto{
+     width: 60%;
+     
+     margin-left: 20px;
+     margin-top: 80px;
+     
+    }
+    
+    a{
+      text-decoration: none;
+    }
+    button{
+      margin-top: 230px;
+      width: 30%;
+      
+      font-size: 25px;
+      color: aliceblue;
+      background-color: blue;
+      font-weight: 600;
+    }
+    .miras{
+    margin-top: 200px;
+    line-height: 50px;
+    
+    
+    }
+    .carousel-inner{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    width: 50%;
+    }
+    
