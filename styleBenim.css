@@ -7,7 +7,7 @@ height: 100vh;
             }
             ul{
 
-font-size: 50px;
+font-size: 40px;
 color: rgb(240, 232, 232);
 background-color: rgb(5, 5, 5);
 line-height: 80px;
@@ -15,13 +15,13 @@ line-height: 80px;
             .table{
 background: linear-gradient(rgb(238, 166, 138),rgb(243, 225, 176));
 width: 50%;
-font-size: 40px;
+font-size: 30px;
 margin-top: 130px;
 margin-bottom: 130px;
 line-height: 80px;
             }
             label{
-font-size: 70px;
+font-size: 50px;
 background-color: rgb(214, 10, 10);
 color: aliceblue;
 border-radius: 10px;
@@ -35,14 +35,40 @@ margin-top: 70px;
             a{
                 color: aliceblue;
                 text-decoration: none;
-                font-size: 45px;
+                font-size: 25px;
             }
             div{
                 margin-top: 20px;
-                line-height: 60px;
+                line-height: 40px;
                 border-radius: 15px;
             }
             .img{
-              width: 700px;
+              width: 500px;
+             
             }
             
+          @media screen and (min-width:0px) and (max-width:600px){
+              
+              .img{
+                  
+                  margin-left:250px;
+                  
+              }
+              a{
+               
+                font-size: 45px;
+            }
+            div{
+                margin-top: 30px;
+                line-height: 70px;
+                border-radius: 15px;
+            }
+            label{
+font-size: 70px;
+
+            }
+             .table{
+                 font-size:40px;
+                 
+             }
+          }
