@@ -18,26 +18,26 @@
   <br>
   <hr>
     <center>
-      <form  action="hizmet.html"  method="post">
+      <form name="form"  onsubmit="return(Dogrulama())" action="Kullanci.php"  method="post">
         <table >
           <tr>
             <th> Ad Soyad </th>
           
           </tr>
-          <tr> <th > <input type="text" name="text" > </th></tr>
+          <tr> <th > <input type="text" name="text"  id="txt1"> </th></tr>
           <tr>
             <th> Email </th>
             
              
           </tr>
-          <tr><th > <input type="email"  name="email" > </th></tr>
+          <tr><th > <input type="email"  name="email" id="email" > </th></tr>
           <tr>
             <th> Şifre </th>
            
             
           </tr>
           <tr>
-            <th > <input type="password" name="password" > </th>
+            <th > <input type="password" name="password" id="pas" > </th>
           </tr>
          
          
@@ -45,45 +45,46 @@
   
           <th>Resminiz</th>
          
-          
         </tr>
-        <tr><th ><input type="file" name="file" ></th></tr>
+        <tr><th ><input type="file" name="file" id="fil"></th></tr>
         <tr>
           <th>Cinsyet</th>
          
         </tr>
         <tr>
-          <td><input type="radio" name="radio" value="Erkek" required>Erkek</td>
           
         </tr>
-        <tr><td ><input type="radio" name="radio" value="Kız" required>Kız</td></tr>
+        <tr>
+          <td><input type="radio" name="radio" id="rdo" >Erkek</td>
+          
+        </tr>
+        <tr><td ><input type="radio" name="radio" id="rdo" >Kız</td></tr>
         <tr>
           <th>Sınıfınız</th>
          
          
         </tr>
-        <tr> <td><input type="radio" name="sinif" value="bir" required>Birinci</td>
+        <tr> <td><input type="radio" name="sinif" id="snf" >Birinci</td>
          
         </tr>
-        <td><input type="radio" name="sinif" value="iki" required>İkinci</td>
+        <td><input type="radio" name="sinif" id="snf" >İkinci</td>
         
         <tr>
-          <tr><td><input type="radio" name="sinif" value="uc" required>Üçüncü</td>
+          <td><input type="radio" name="sinif" id="snf" >Üçüncü</td>
             </tr>
             <tr>
-              <td><input type="radio" name="sinif" value="dort" required>Dorduncu</td>
+              <td><input type="radio" name="sinif" id="snf" >Dördüncü</td>
             </tr>
           <th>Hangi Şehride Oturyorsunuz</th>
          
-          
         </tr>
-<tr><th> <select name="select">
-            
+<tr><th> <select name="select" id="select">
+  <option value="-1">Seç</option>
   <option value="1">İstanbul</option>
-  <option value="2">Sakarya</option>
-  <option value="3">Ankara</option>
-  <option value="4">İzmir</option>
-  <option value="5">Adana</option>
+  <option value="1">Sakarya</option>
+  <option value="1">Ankara</option>
+  <option value="1">İzmir</option>
+  <option value="1">Adana</option>
 </select></th></tr>
           <tr>
             <th>
@@ -92,19 +93,19 @@
            
           </tr>
      <tr>
-      <td ><input type="checkbox" name="en">Inglizce</td>
+      <td ><input type="checkbox" name="en" id="ch" >Inglizce</td>
      </tr>
      <tr>
-      <td ><input type="checkbox" name="tr">Turkçe</td>
+      <td ><input type="checkbox" name="tr" id="ch">Turkçe</td>
      </tr>
      <tr>
-      <td ><input type="checkbox" name="al">Almanca</td>
+      <td ><input type="checkbox" name="al" id="ch">Almanca</td>
      </tr>
      <tr>
-      <td ><input type="checkbox" name="fr">Fransızca</td>
+      <td ><input type="checkbox" name="fr" id="ch">Fransızca</td>
      </tr>
      <tr>
-      <td ><input type="checkbox" name="ar">Arapça</td>
+      <td ><input type="checkbox" name="ar" id="ch">Arapça</td>
      </tr>
           <tr>
            
@@ -121,6 +122,82 @@
      
     </center>
     <br> <br>
+    <script>
+ function  Dogrulama()
+{
+  var y=false;
+  var x=document.form.radio;
+  for(var i =0;i<x.length;i++)
+{
+if(x[i].checked)
+{
+  y=true;
+  break;
+}
+}
+var m=false;
+  var n=document.form.sinif;
+  for(var j =0;j<n.length;j++)
+{
+if(n[j].checked)
+{
+  m=true;
+  break;
+}
+}
+if(document.getElementById('txt1').value=="")
+{
+  alert("Adınız soyadınız girin");
+  return false;
+}
+
+if(document.getElementById('email').value=="")
+{
+  alert("Emailiniz girin");
+  return false;
+}
+if(document.getElementById('pas').value=="")
+{
+alert("Lütfen Şifreniz Girin");
+return false;
+}
+if(document.getElementById('fil').value=="")
+{
+alert("Fotograf sec");
+return false;
+}
+if(y==false)
+{
+  alert("Cinsyet Seçin");
+  return false;
+}
+if(m==false)
+{
+  alert("SINIFINIZIN Seçin");
+  return false;
+}
+if(document.getElementById('select').value=="-1")
+{
+alert("Lütfen Şhriniz Seçin");
+return false;
+}
+
+if(document.getElementById('ch').checked ==false )
+{
+alert("En az bir dil sec");
+return false;
+}
+
+else
+{
+return true;
+}
+
+
+}
+
+
+    </script>
   
      
    
