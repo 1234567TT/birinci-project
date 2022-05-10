@@ -1,3 +1,6 @@
+
+
+
 body{
         
     background : linear-gradient(rgb(2, 2, 2),rgb(2, 2, 2));
@@ -45,6 +48,23 @@ margin-top: 70px;
             .img{
               width: 500px;
              
+            }
+            .f{
+                background-color: black;
+                color: rgb(26, 138, 236);
+                padding: 30px;
+                display: flex;
+                justify-content: space-between;
+            
+              }
+              .f span{
+                color: rgb(229, 228, 240);
+              font-size: 2em;
+              }
+            .soc a{
+              color: rgb(231, 231, 238);
+            letter-spacing: 10px;
+            font-size: 20px;
             }
             
           @media screen and (min-width:0px) and (max-width:600px){

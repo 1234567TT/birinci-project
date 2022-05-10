@@ -1,0 +1,171 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  
+  
+  .social-icons a {
+  
+  color: rgb(229, 229, 235);
+  letter-spacing: 30px;
+  font-size: 1.7em;
+  }
+  .title {
+  color: rgb(141, 12, 8);
+  background-color: darkkhaki;
+  display: flex;
+  justify-content:center;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  flex-wrap: wrap;
+  }
+  .card
+  {
+  background-color: rgb(240, 215, 73);
+  width: 20em;
+  box-shadow: 0 5px 25px rgba(1 1 1 /25%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+  transition: 0.8s ease;
+  }
+  .card:hover{
+  transform: scale(1.1);
+  
+  
+  }
+  .info{ 
+  
+    text-align: center;
+  }
+  .main-btn span{
+    font-size: 0.7em;
+  }
+  .info h3{
+  color: rgb(134, 78, 5);
+  font-size: 1.2em;
+  margin: 10px;
+  font-weight: 700;
+  
+  }
+  .info p{
+    color: rgb(194, 120, 9);
+  }
+  .icon{
+  color: rgb(151, 8, 8);
+  font-size: 8em;
+  text-align: center;
+  
+  }
+  .title1 {
+    color: rgb(16, 4, 124);
+    background-color: rgb(71, 144, 238);
+    display: flex;
+    justify-content:center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    }
+    .content1 {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .card1
+    {
+    background-color: rgb(8, 97, 214);
+    width: 20em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /25%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    transition: 0.8s ease;
+    }
+    .card1:hover{
+    transform: scale(1.1);
+    
+    
+    }
+    .info1{ 
+    
+      text-align: center;
+    }
+    .info1 h3{
+    color: rgb(219, 225, 233);
+    font-size: 2em;
+    margin: 10px;
+    font-weight: 700;
+    
+    }
+    .info1 p{
+      color: rgb(6, 5, 78);
+      font-size: large;
+    }
+    .icon1{
+    color: rgb(228, 229, 240);
+    font-size: 8em;
+    text-align: center;
+    
+    }
+    .f{
+      background-color: black;
+      color: rgb(26, 138, 236);
+      padding: 2em;
+      display: flex;
+      justify-content: space-between;
+  
+    }
+    .f span{
+      color: rgb(229, 228, 240);
+    font-size: 2em;
+    }
+  .soc a{
+    color: rgb(208, 208, 219);
+  letter-spacing: 10px;
+  font-size: 1.7em;
+  }
+  @media (max-width:1023px){
+    
+    .title{
+      font-size: 1.8em;
+    }
+    .title1{
+      font-size: 1.8em;
+    }
+    section{
+      padding: 80px 20px;
+    }
+    
+       .content{
+         flex-direction: column;
+         align-items: center;
+       }
+       .content1 {
+        flex-direction: column;
+        align-items: center;
+      } 
+    }
+    @media (max-width:641px){
+  body{
+    font-size: 12px;
+  }
+  
+    }
+  
+  @media (max-width:300px){
+    body{
+      font-size: 10px;
+    }
+  }
+  
