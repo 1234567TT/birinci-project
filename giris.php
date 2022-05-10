@@ -61,9 +61,7 @@ else{
 <label style="margin-left:50px;">b201210597@sakarya.edu.tr</label>
 
           </form> 
-        
-
-       
+    
 </div>
 
 </div>

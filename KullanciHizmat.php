@@ -10,6 +10,17 @@
   <title>Hizmetler</title>
 </head>
 <body>
+  <br>
+  <hr>
+<center>
+  <h2 style="color:blue;">Hoş Geldin :<?php  echo " ".$_POST["text"] ;      ?></h2>
+</center>
+
+<hr>
+<br>
+<br>
+<br>
+
   </section>
 <section class="cards" id="services">
   <h2 class="title">HİZMETLER</h2>
