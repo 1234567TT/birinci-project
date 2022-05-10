@@ -7,6 +7,7 @@
     <title>KULLANICI SAYFASI</title>
 </head>
 <body>
+ <h1>HOŞ GELDİNİZ</h1>
  
 </body>
 </html>

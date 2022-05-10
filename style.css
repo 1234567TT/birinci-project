@@ -97,7 +97,16 @@ font-family: Cambria, Cochin, Georgia, Times,
 .giris a:hover{
     background-color: darkslategray;
 }
-
+table{
+    background: rgb(255,255,255,0.2);
+    font-size: 20px;
+    color: rgb(3, 30, 104);
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 7px;
+    
+}
 
 
 @media screen and (min-width:1402px)

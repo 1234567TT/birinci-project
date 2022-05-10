@@ -49,7 +49,7 @@ else{
 
 <h1 class="text-center mb-4">GİRİŞ YAP</h1>
 <div class="mb-3">
-<label for="user" class="form-label">KULLANICI ADI VEYA EMAİL</label>
+<label for="user" class="form-label">EMAİL</label>
 <input type="email" id="user" name="user" class="form-control" required>
 </div>
 <div class="mb-3">
@@ -57,6 +57,8 @@ else{
 <input type="password" id="pass" name="pass" class="form-control" required>
 </div>
 <button type="submit" name="submit"  class="btn btn-success  w-75  d-block m-auto" >GİRİŞ</button>
+<br>
+<label style="margin-left:50px;">b201210597@sakarya.edu.tr</label>
 
           </form> 
         

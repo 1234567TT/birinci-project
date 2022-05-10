@@ -92,20 +92,20 @@
             </th>
            
           </tr>
-     <tr>
-      <td ><input type="checkbox" name="en" id="ch" >Inglizce</td>
+     <tr class="diler">
+      <td ><input type="checkbox" name="dil" id="ch" >Inglizce</td>
      </tr>
      <tr>
-      <td ><input type="checkbox" name="tr" id="ch">Turkçe</td>
+      <td ><input type="checkbox" name="dil" id="ch">Turkçe</td>
      </tr>
      <tr>
-      <td ><input type="checkbox" name="al" id="ch">Almanca</td>
+      <td ><input type="checkbox" name="dil" id="ch">Almanca</td>
      </tr>
      <tr>
-      <td ><input type="checkbox" name="fr" id="ch">Fransızca</td>
+      <td ><input type="checkbox" name="dil" id="ch">Fransızca</td>
      </tr>
      <tr>
-      <td ><input type="checkbox" name="ar" id="ch">Arapça</td>
+      <td ><input type="checkbox" name="dil" id="ch">Arapça</td>
      </tr>
           <tr>
            
@@ -125,6 +125,16 @@
     <script>
  function  Dogrulama()
 {
+  var a=false;
+  var b=document.form.dil;
+  for(var f =0;f<b.length;f++)
+{
+if(b[f].checked)
+{
+  a=true;
+  break;
+}
+}
   var y=false;
   var x=document.form.radio;
   for(var i =0;i<x.length;i++)
@@ -182,7 +192,7 @@ alert("Lütfen Şhriniz Seçin");
 return false;
 }
 
-if(document.getElementById('ch').checked ==false )
+if(a==false)
 {
 alert("En az bir dil sec");
 return false;
