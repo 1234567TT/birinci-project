@@ -5,7 +5,7 @@ if(isset($_POST["submit"]))
 $user=$_POST["user"]; 
 $pass=$_POST["pass"];
 $dogru=false;
-if($user=="b201210597@sakarya.edu.tr" && $pass=="b201210597" ||$user==" b201210597@sakarya.edu.tr " && $pass=="b201210597")
+if(($user=="b201210597@sakarya.edu.tr" && $pass=="b201210597") ||($user=="B201210597@sakarya.edu.tr" && $pass=="B201210597"))
 {
 $dogru=true;
 

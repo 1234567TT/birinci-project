@@ -98,6 +98,7 @@ font-family: Cambria, Cochin, Georgia, Times,
     background-color: rgb(83, 85, 85);
 }
 table{
+    line-height: 30px;
     background: rgba(54, 54, 52, 0.5);
     font-size: 15px;
     color: rgb(3, 30, 104);

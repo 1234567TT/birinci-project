@@ -76,8 +76,13 @@
   transform: scale(1.1);
   
   }
-  .card{
+  center{
 
+    background:linear-gradient(black,red);
+  }
+  .card{
+margin-bottom: 2%;
+margin-top: 5%;
 
   }
   

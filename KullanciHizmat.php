@@ -13,7 +13,7 @@
   <br>
   <hr>
 <center>
-  <h2 style="color:blue;">Hoş Geldin :<?php  echo " ".$_POST["text"] ;      ?></h2>
+  <h2 style="color:blue;">Hoş Geldin :<?php  echo " ".$_POST["text"] ;      ?> </h2>
 </center>
 
 <hr>
