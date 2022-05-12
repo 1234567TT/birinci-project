@@ -5,7 +5,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
 
-background: linear-gradient(rgb(234, 240, 234),rgb(129, 79, 3));
+background: linear-gradient(rgb(234, 240, 234),rgb(8, 8, 6));
 width: 100%;
 height: 100vh;
 
@@ -50,7 +50,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-decoration: none;
 margin: 16px;
 padding: 16px;
-background-color: rgb(219, 152, 6);
+background-color: black;
 width: 15%;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-size: 20px;
@@ -62,7 +62,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a:hover{
 
-background-color: rgb(129, 79, 3);
+background-color: rgb(83, 85, 85);
 
 }
 img{
@@ -95,10 +95,10 @@ font-family: Cambria, Cochin, Georgia, Times,
 'Times New Roman', serif;
 }
 .giris a:hover{
-    background-color: darkslategray;
+    background-color: rgb(83, 85, 85);
 }
 table{
-    background: rgb(235, 180, 2,0.5);
+    background: rgba(54, 54, 52, 0.5);
     font-size: 15px;
     color: rgb(3, 30, 104);
     text-align: center;
@@ -240,13 +240,6 @@ height: 60%;
     line-height: 70px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-}
-body{
-    background: linear-gradient(rgb(129, 79, 3),rgb(234, 240, 234));
-    width: 100%;
-    height: 100vh;
-    
-
 }
  
 
